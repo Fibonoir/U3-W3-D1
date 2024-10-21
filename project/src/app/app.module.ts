@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OtherPageComponent } from './modules/other-page/other-page.component';
 import { SharedModule } from './shared/shared.module';
+import { PostComponent } from './modules/posts/posts.component';
+import { NoAccessComponent } from './modules/no-access/no-access.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OtherPageComponent
+    OtherPageComponent,
+    PostComponent,
+    NoAccessComponent
   ],
   imports: [
     BrowserModule,

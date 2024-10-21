@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OtherPageRoutingModule } from './otherpage-routing.module';
+import { SharedModule } from '../../shared/shared.module';
 
 
 
@@ -8,7 +9,8 @@ import { OtherPageRoutingModule } from './otherpage-routing.module';
   declarations: [],
   imports: [
     CommonModule,
-    OtherPageRoutingModule
+    OtherPageRoutingModule,
+    SharedModule
   ]
 })
 export class OtherPageModule { }
